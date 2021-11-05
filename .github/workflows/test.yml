@@ -244,7 +244,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - uses: giorgosneokleous93/docker-multicommand-android@v1.0.0
+      - uses: giorgosneokleous93/docker-multicommand-android@v1.0.1
         with:
           workingdir: "./android-runtime/"
           command1: "./gradlew test assembleRelease"
